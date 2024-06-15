@@ -1,4 +1,10 @@
 spring:
+  cache:
+    type: redis
+    host: localhost
+    port: 6379
+    redis:
+      time-to-live: 60000
   data:
     mongodb:
       uri: mongodb+srv://bshivam9545:i8f1fSys0YFDeooK@cluster0.jndmgxw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
