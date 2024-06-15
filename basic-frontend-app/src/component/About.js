@@ -2,7 +2,7 @@
 
 import React from "react";
 import Container from 'react-bootstrap/Container';
-import Cards from '~/container/Cards'
+import Cards from './Cards'
 
 function About() {
     return (
